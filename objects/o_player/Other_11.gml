@@ -7,7 +7,7 @@ if(animation_hit_frame(1)) {
 	var _damage = 1;
 	var _knockback = 8;
 	
-	var _hitbox = create_hitbox(s_sword_hitbox, x, y, _angle, _life, [], _damage, _knockback);
+	var _hitbox = create_hitbox(s_sword_hitbox, x, y, _angle, _life, [o_enemy], _damage, _knockback);
 	
 	switch (direction_facing) {
 		case dir.up: _hitbox.y -= 4; break; // when up, it's better aligned this way
