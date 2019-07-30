@@ -159,6 +159,14 @@
             }
         },
         {
+            "Key": "39aee9f1-f559-45af-ab6a-55fa1a50803a",
+            "Value": {
+                "id": "28627166-2393-416f-b2c5-eb06e8ff7b34",
+                "resourcePath": "objects\/o_animation_hit\/o_animation_hit.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "40d2610b-6a18-429c-a219-e529b0513899",
             "Value": {
                 "id": "04441230-f892-4056-8295-e006f6004e91",
@@ -235,6 +243,14 @@
             "Value": {
                 "id": "89393262-cd52-4945-949d-6d9eec1bacf6",
                 "resourcePath": "views\/58a73c08-013c-409c-896a-a104b3976302.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "59be2610-acdf-4907-9a53-c5081e363501",
+            "Value": {
+                "id": "fe646b48-bca4-42e4-aab2-86a70a4811c6",
+                "resourcePath": "views\/59be2610-acdf-4907-9a53-c5081e363501.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -583,6 +599,14 @@
             }
         },
         {
+            "Key": "f82799da-0b27-4966-b80d-4e30d5efcd56",
+            "Value": {
+                "id": "5b5030b3-eed1-4b03-9d91-303589497ef8",
+                "resourcePath": "scripts\/create_animation_effect\/create_animation_effect.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "fc36afb3-e0a3-4f46-be75-10083fa54cf6",
             "Value": {
                 "id": "bd908047-62b9-48f9-a1ad-121d333c256b",
@@ -620,7 +644,8 @@
         "e6a461ec-e791-4ad7-b414-52ba9fd93a23",
         "4bc618f1-5db4-402d-b351-b16b82dddd08",
         "240c0ebc-e6e7-45d9-81ba-83943286c925",
-        "a15a9cbf-8a8e-41e6-b815-f6d6c5ad6c89"
+        "a15a9cbf-8a8e-41e6-b815-f6d6c5ad6c89",
+        "f82799da-0b27-4966-b80d-4e30d5efcd56"
     ],
     "tutorial": ""
 }
