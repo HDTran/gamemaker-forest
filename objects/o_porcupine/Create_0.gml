@@ -15,4 +15,4 @@ state_ = starting_state_;
 image_index = 0;
 image_xscale = choose(1, -1); // randomly face right or left
 
-alarm[1] = random_range(0, 1) * game_get_speed(gamespeed_fps); // between 0 and 1 second
+alarm[1] = random_range(0, 1) * global.one_second; // between 0 and 1 second
