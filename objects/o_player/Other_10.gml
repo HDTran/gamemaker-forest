@@ -1,11 +1,11 @@
 /// @description Move State
 image_speed = 0; // reset, not good solution
 var animation_speed = .6;
-var x_input = keyboard_check(vk_right) - keyboard_check(vk_left); // 0 or 1 based on whether it's being pressed
-var y_input = keyboard_check(vk_down) - keyboard_check(vk_up); // 0 or 1 based on whether it's being pressed
+var x_input = o_input.right_ - o_input.left_; // 0 or 1 based on whether it's being pressed
+var y_input = o_input.down_ - o_input.up_; // 0 or 1 based on whether it's being pressed
 var input_direction = point_direction(0 ,0, x_input, y_input);
-var attack_input = keyboard_check_pressed(ord("X"));
-var roll_input = keyboard_check_pressed(ord("Z"));
+var attack_input = o_input.action_one_pressed_;
+var roll_input = o_input.action_two_pressed_;
 roll_direction = direction_facing * 90;
 
 if(x_input == 0 && y_input == 0) {
