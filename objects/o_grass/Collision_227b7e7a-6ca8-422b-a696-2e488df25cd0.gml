@@ -1,3 +1,3 @@
-/// @description Insert description here
-// You can write your code in this editor
-instance_destroy();
+if (hurtbox_entity_can_be_hit_by(other)) {
+	instance_destroy();
+}
