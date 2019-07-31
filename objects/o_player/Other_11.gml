@@ -9,6 +9,8 @@ if(animation_hit_frame(1)) {
 	
 	var _hitbox = create_hitbox(s_sword_hitbox, x, y, _angle, _life, [o_enemy, o_grass], _damage, _knockback);
 	
+	audio_play_sound(a_swipe, 8, false);
+	
 	switch (direction_facing) {
 		case dir.up: _hitbox.y -= 4; break; // when up, it's better aligned this way
 		default: _hitbox.y -= 8; break;
