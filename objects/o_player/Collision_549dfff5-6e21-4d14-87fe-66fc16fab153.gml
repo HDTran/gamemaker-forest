@@ -1,7 +1,7 @@
 /// @description Hit Logic
 if (hurtbox_entity_can_be_hit_by(other)) {
 	invincible_ = true;
-	alarm[0] = global.one_second;
+	alarm[0] = global.one_second * 0.75;
 	
 	global.player_health -= other.damage_;
 	
