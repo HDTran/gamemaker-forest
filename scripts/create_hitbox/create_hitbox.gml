@@ -20,9 +20,9 @@ var _hitbox = instance_create_layer(_x, _y, "Instances", o_hitbox);
 _hitbox.sprite_index = _sprite;
 _hitbox.image_angle = _angle;
 _hitbox.alarm[0] = _frames;
-_hitbox.targets = _array;
-_hitbox.damage = _damage;
-_hitbox.knockback = _knockback;
+_hitbox.targets_ = _array;
+_hitbox.damage_ = _damage;
+_hitbox.knockback_ = _knockback;
 
 // return instance for further use
 return _hitbox;
