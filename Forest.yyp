@@ -95,11 +95,27 @@
             }
         },
         {
+            "Key": "1876b401-831f-4823-985a-745988b5cab9",
+            "Value": {
+                "id": "01c9617e-363e-460b-8cce-2a5837e86318",
+                "resourcePath": "views\/5b78da78-2802-4e32-a3bc-b2065f77ae6d-room.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "19f07e54-6f12-49c7-af25-9c47a4491dc6",
             "Value": {
                 "id": "30494377-0261-4f73-9514-5d3c0fd5748b",
                 "resourcePath": "sprites\/s_player_run_right\/s_player_run_right.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "1a514ad4-1fa4-4ae6-9976-acd088cc4ea4",
+            "Value": {
+                "id": "ec8bc9bc-9052-45b7-9875-18c8c2e9d0e1",
+                "resourcePath": "rooms\/r_world\/r_world.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -287,6 +303,14 @@
             }
         },
         {
+            "Key": "555fcf41-ff46-4a2a-8e94-5552eccfe92a",
+            "Value": {
+                "id": "7b1c18a0-7e2b-4e32-a12a-666e62cb6965",
+                "resourcePath": "rooms\/r_sword\/r_sword.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "585b412e-3416-4f89-ace4-7177b94fe6ee",
             "Value": {
                 "id": "baa2ae04-0696-47b2-9e51-a1827068cae8",
@@ -314,7 +338,7 @@
             "Key": "5b78da78-2802-4e32-a3bc-b2065f77ae6d",
             "Value": {
                 "id": "20fa64bb-8538-43f7-aece-92e6122006d7",
-                "resourcePath": "rooms\/room0\/room0.yy",
+                "resourcePath": "rooms\/r_base\/r_base.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -375,6 +399,14 @@
             }
         },
         {
+            "Key": "6cfb4902-c7e1-465d-9588-b6fb7edfb4a3",
+            "Value": {
+                "id": "e23862fb-16ae-46a8-9465-0a5733a8334a",
+                "resourcePath": "sprites\/s_door\/s_door.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "6fe9efd8-ca6f-4108-a2eb-cd26066cfec2",
             "Value": {
                 "id": "5927fc44-7e31-499e-8ad5-0007934c119a",
@@ -404,6 +436,14 @@
                 "id": "5e3d0e0a-6829-4d8e-9081-7dbd0400bbf6",
                 "resourcePath": "scripts\/initialize_movement_entity\/initialize_movement_entity.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "7bfe338b-bddc-41f6-ace7-0679ac25f13f",
+            "Value": {
+                "id": "5bd7403e-7a68-47fa-945c-a555e00fb42d",
+                "resourcePath": "views\/7bfe338b-bddc-41f6-ace7-0679ac25f13f.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -599,6 +639,22 @@
             }
         },
         {
+            "Key": "d2607ca6-c97e-4448-87f0-82a5600ce9d0",
+            "Value": {
+                "id": "cdcc6b5b-7bfb-4714-9339-0e6ba32b9411",
+                "resourcePath": "sprites\/s_start_position\/s_start_position.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "d2703a6e-563c-4122-8980-69f302214151",
+            "Value": {
+                "id": "94e336cd-b08e-4d53-9333-6376c3e93ff4",
+                "resourcePath": "objects\/o_door\/o_door.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "d91dbc6a-4d1c-4bb7-b4de-a7a08e137bce",
             "Value": {
                 "id": "348913dd-4260-4e07-b467-38c984161ac5",
@@ -612,6 +668,14 @@
                 "id": "82af7489-5393-4801-8817-e9ced30cebb4",
                 "resourcePath": "views\/d961b6c1-65cc-49bb-8142-2758231ba3e2.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "e0ba4b8f-6766-44f3-ab8a-95c19137ad77",
+            "Value": {
+                "id": "f638a926-8550-4e50-ad13-1ac2dbd5b1bb",
+                "resourcePath": "objects\/o_start_position\/o_start_position.yy",
+                "resourceType": "GMObject"
             }
         },
         {
