@@ -103,6 +103,14 @@
             }
         },
         {
+            "Key": "19637def-f09b-4603-9cbc-23290f2cea31",
+            "Value": {
+                "id": "226148e9-193b-4cef-994b-664f4694833f",
+                "resourcePath": "sprites\/s_small_shadow\/s_small_shadow.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "19f07e54-6f12-49c7-af25-9c47a4491dc6",
             "Value": {
                 "id": "30494377-0261-4f73-9514-5d3c0fd5748b",
@@ -399,6 +407,14 @@
             }
         },
         {
+            "Key": "643511f7-7b1c-449e-9ec5-cc58d2c5c4ba",
+            "Value": {
+                "id": "dae8ea24-7bcb-426e-9e88-3668b69b63c2",
+                "resourcePath": "sprites\/s_heart\/s_heart.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "675d02ea-5919-4ab7-872b-a8bc4e703c9d",
             "Value": {
                 "id": "67d785d8-bb9b-4db9-938b-61d21bc1cd38",
@@ -559,6 +575,14 @@
             }
         },
         {
+            "Key": "a0845752-6c22-4232-85b3-9a7919e97e01",
+            "Value": {
+                "id": "a2ad577a-6317-4057-bee1-c74b054d717c",
+                "resourcePath": "scripts\/chance\/chance.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "a15a9cbf-8a8e-41e6-b815-f6d6c5ad6c89",
             "Value": {
                 "id": "e3b850b0-1d5e-418b-aa42-d17fe8b7af15",
@@ -700,6 +724,14 @@
                 "id": "5cacc817-1857-4c29-9a96-d08023f0dd08",
                 "resourcePath": "sounds\/a_item\/a_item.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "d168e6a6-4f0c-457b-be2e-b75567306e7d",
+            "Value": {
+                "id": "a90e0824-92cd-4922-a6a0-9369dbd3d8c0",
+                "resourcePath": "objects\/o_heart_pickup\/o_heart_pickup.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -880,6 +912,7 @@
         "aa5ef958-fd95-4adf-841b-73eddd855928",
         "0a7e5777-d490-4a88-85fc-b779a40db644",
         "3a534d50-ffa7-48db-b348-415c2a3c3f7d",
+        "a0845752-6c22-4232-85b3-9a7919e97e01",
         "585b412e-3416-4f89-ace4-7177b94fe6ee",
         "7d146115-ec48-4cad-857d-8f8a5c259d21",
         "e6a461ec-e791-4ad7-b414-52ba9fd93a23",
