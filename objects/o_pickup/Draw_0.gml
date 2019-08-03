@@ -1,0 +1,1 @@
+draw_sprite(sprite_index, image_index, x, y+z_); // we add z to y because of depth based on y
