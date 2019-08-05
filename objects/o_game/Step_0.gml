@@ -13,7 +13,15 @@ if (o_input.paused_pressed_) {
 
 		// deactive everything, but the game object
 		instance_deactivate_all(true);
-		instance_activate_object(o_input); // reactivate this to read inputs for next read
+		
+		// activate all inventory items
+		var _array_size = array_length_1d(global.inventory);
+		for (var _i = 0; _i < _array_size; _i++) {
+			instance_activate_object(global.inventory[_i]);
+		}
+		
+		// reactivate this to read inputs for next unpause read
+		instance_activate_object(o_input); 
 		audio_play_sound(a_pause, 5, false);
 	}
 }
