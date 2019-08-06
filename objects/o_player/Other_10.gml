@@ -4,8 +4,6 @@ var animation_speed = .6;
 var x_input = o_input.right_ - o_input.left_; // 0 or 1 based on whether it's being pressed
 var y_input = o_input.down_ - o_input.up_; // 0 or 1 based on whether it's being pressed
 var input_direction = point_direction(0 ,0, x_input, y_input);
-var attack_input = o_input.action_one_pressed_;
-var roll_input = o_input.action_two_pressed_;
 roll_direction = direction_facing * 90;
 
 if(x_input == 0 && y_input == 0) {
@@ -23,12 +21,7 @@ if(x_input == 0 && y_input == 0) {
 	roll_direction = direction_facing * 90;
 }
 
-if(attack_input) {
-	image_index = 0;
-	state = player.sword;
-} if(roll_input) {
-	image_index = 0;
-	state = player.evade;
-}
+inventory_use_item(o_input.action_one_pressed_, global.item[0]);
+inventory_use_item(o_input.action_two_pressed_, global.item[1]);
 
 move_movement_entity(false);
