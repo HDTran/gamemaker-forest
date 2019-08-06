@@ -303,6 +303,14 @@
             }
         },
         {
+            "Key": "3ee4f15e-ba45-480c-a75f-2467b991e141",
+            "Value": {
+                "id": "94d89649-1197-4eba-a991-2cdfafc8168b",
+                "resourcePath": "sprites\/s_explosion_effect\/s_explosion_effect.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "40d2610b-6a18-429c-a219-e529b0513899",
             "Value": {
                 "id": "04441230-f892-4056-8295-e006f6004e91",
@@ -519,6 +527,14 @@
             }
         },
         {
+            "Key": "71c9bd82-d628-4de4-a339-079267929842",
+            "Value": {
+                "id": "d8608b86-ca3b-496d-87ef-8ca87cf5cfb9",
+                "resourcePath": "sprites\/s_bomb\/s_bomb.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "723fc2bf-b847-4397-a3cc-ed32c6564bbd",
             "Value": {
                 "id": "16dafc77-13e2-494a-a010-551135960f61",
@@ -668,6 +684,30 @@
                 "id": "16557d4c-1e92-4bcd-bcb0-d6bf8077be3a",
                 "resourcePath": "sprites\/s_porcupine_run\/s_porcupine_run.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "98a70c50-fb25-46d8-827a-384ea84c32d9",
+            "Value": {
+                "id": "49b5d1e2-7107-4579-b7f4-0fe0fd48f220",
+                "resourcePath": "objects\/o_bomb\/o_bomb.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "9932cec9-ee38-4f87-9d99-60358f44b663",
+            "Value": {
+                "id": "6f85861c-09f0-403a-8818-8cab1b6d1ff3",
+                "resourcePath": "sounds\/a_explosion\/a_explosion.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "9a1bf9d7-3885-44d1-9865-2fd74bc67823",
+            "Value": {
+                "id": "877fe856-e242-4711-929d-634d860fc3eb",
+                "resourcePath": "sounds\/a_set_bomb\/a_set_bomb.yy",
+                "resourceType": "GMSound"
             }
         },
         {
