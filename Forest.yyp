@@ -103,6 +103,14 @@
             }
         },
         {
+            "Key": "1417fbef-4029-4c50-8069-07c52831f7a1",
+            "Value": {
+                "id": "e61e1b33-e738-49b1-bef1-8ae207edd203",
+                "resourcePath": "sprites\/s_bat\/s_bat.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "1876b401-831f-4823-985a-745988b5cab9",
             "Value": {
                 "id": "01c9617e-363e-460b-8cce-2a5837e86318",
@@ -387,6 +395,22 @@
             "Value": {
                 "id": "9997bdee-7fb0-4b9a-b4ad-12419ae1b7d6",
                 "resourcePath": "scripts\/array_find_index\/array_find_index.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "563ab83a-8562-41c6-bfd9-b625685be96f",
+            "Value": {
+                "id": "e9a7578c-6774-48a8-8db7-6f4470f75138",
+                "resourcePath": "objects\/o_bat\/o_bat.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "585947cd-7dc2-4bac-b9ba-d4da443b9ac6",
+            "Value": {
+                "id": "e97f32a4-e1c6-4d00-889c-2871c6c28b64",
+                "resourcePath": "scripts\/set_sprite_facing\/set_sprite_facing.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -1182,7 +1206,8 @@
         "5ec81207-43db-4311-beee-f663151196f1",
         "3a7cc735-f6bc-4f02-85f4-fa98476f948f",
         "faf46c42-06ff-4e51-90db-b0a4ef353b6a",
-        "e3c9e25c-f852-4675-9feb-227b760f2b12"
+        "e3c9e25c-f852-4675-9feb-227b760f2b12",
+        "585947cd-7dc2-4bac-b9ba-d4da443b9ac6"
     ],
     "tutorial": ""
 }
