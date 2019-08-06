@@ -1149,6 +1149,14 @@
                 "resourcePath": "tilesets\/t_dirtwall\/t_dirtwall.yy",
                 "resourceType": "GMTileSet"
             }
+        },
+        {
+            "Key": "fca8d3b1-7dc3-4404-ac20-5b76842f8f33",
+            "Value": {
+                "id": "9b715ca9-42b6-44f1-ad3a-a4d4eb639d9a",
+                "resourcePath": "sprites\/s_stamina_ui\/s_stamina_ui.yy",
+                "resourceType": "GMSprite"
+            }
         }
     ],
     "script_order": [

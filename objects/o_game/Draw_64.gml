@@ -8,13 +8,18 @@ if (sprite_exists(paused_sprite_)) {
 	draw_set_alpha(1); // reset draw set alpha for future
 }
 
-var _hud_right_edge = 2+global.player_max_health*15; // use the player's health to determine max edge
+var _hud_right_edge = max(3+global.player_max_health*15, 2+global.player_max_stamina*17); // use the player's health or stamina to determine max edge
 draw_sprite_ext(s_hud, 0, 0, _gui_height, _hud_right_edge, 1, 0, c_white, 1);
 draw_sprite(s_hud_edge, 0, _hud_right_edge, _gui_height);
 
 for (var _i = 0; _i < global.player_max_health; _i++) {
 	var _filled = _i < global.player_health;
 	draw_sprite(s_heart_ui, _filled, 4+15*_i, _gui_height - 29); // filled maps to 0 or 1, which is the position of the images
+}
+
+for (var _i = 0; _i < global.player_max_stamina; _i++) {
+	var _filled = _i < global.player_stamina;
+	draw_sprite(s_stamina_ui, _filled, 4+17*_i, _gui_height - 17); // filled maps to 0 or 1, which is the position of the images
 }
 
 var _gem_string = string(global.player_gems); // typecast to string from int
