@@ -831,6 +831,14 @@
             }
         },
         {
+            "Key": "a58decf1-1628-471d-bae2-948ee22531cf",
+            "Value": {
+                "id": "8fdac299-04c3-4ece-b765-acc67bf0361a",
+                "resourcePath": "objects\/o_bush\/o_bush.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "a9188620-a624-4a5a-83ae-a1b53faf038b",
             "Value": {
                 "id": "04983c07-6518-40d8-bd14-2eb140ff5db2",
@@ -903,6 +911,14 @@
             }
         },
         {
+            "Key": "c2df8b4b-995d-4ba8-a6b7-83a9ce4be074",
+            "Value": {
+                "id": "121e8142-499c-41b0-97c0-4b196700771a",
+                "resourcePath": "sprites\/s_bush_effect\/s_bush_effect.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "c4c721ee-b4ab-4955-9ea2-665028a70168",
             "Value": {
                 "id": "3b57d55a-671c-451d-8d20-75289387d993",
@@ -940,6 +956,14 @@
                 "id": "264bb27b-410e-4078-9265-5e95e60794dd",
                 "resourcePath": "objects\/o_enemy\/o_enemy.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "cf1d3f4b-1c8a-44c6-96ff-80ef86db588e",
+            "Value": {
+                "id": "d1acb110-2f85-40ea-b8e6-5d9647b7b8e1",
+                "resourcePath": "sprites\/s_bush\/s_bush.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
