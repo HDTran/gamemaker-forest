@@ -1,3 +1,8 @@
+if (global.load) {
+	global.player_start_position = instance_position(global.start_x, global.start_y, o_start_position);
+	global.load = false;
+}
+
 if (instance_exists(global.player_start_position)) {
 	if (instance_exists(o_player)) {
 		o_player.persistent = false; // reset persistance when changing rooms	
@@ -10,5 +15,4 @@ if (instance_exists(global.player_start_position)) {
 		var _start_y = global.player_start_position.y;
 		instance_create_layer(_start_x, _start_y, "Instances", o_player);
 	}
-	global.player_start_position = noone;
 }
