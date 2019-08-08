@@ -9,6 +9,8 @@ roll_speed = 2;
 direction_facing = dir.right;
 roll_direction = 0;
 
+alarm[1] = global.one_second; // initialize alarm for loading game case
+
 enum player {
 	move,
 	sword,
