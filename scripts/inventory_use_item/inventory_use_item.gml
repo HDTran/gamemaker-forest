@@ -4,7 +4,17 @@ var _input = argument0;
 var _item = argument1;
 
 if (_input) {
-	if (instance_exists(_item) && global.player_stamina >= _item.cost_) {
+	// interactables
+	var _target_x = x + lengthdir_x(8, direction*90);
+	var _target_y = y + lengthdir_y(8, direction*90);
+	var _interactable = instance_place(_target_x, _target_y, o_interactable);
+	if (_interactable && _interactable.activatable_) {
+		// with runs it within interactable and not player
+		with _interactable {
+			event_user(interactable.activate);	// using it kind of like a function
+		}
+	} else if (instance_exists(_item) && global.player_stamina >= _item.cost_) {
+		// normal logic
 		state = _item.action_;
 		global.player_stamina = max(0, global.player_stamina-_item.cost_); // return larger of the two so stamina doesn't go below 0
 		alarm[1] = global.one_second; // set the alarm to recharge stamina

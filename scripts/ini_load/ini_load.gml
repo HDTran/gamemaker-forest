@@ -1,6 +1,10 @@
 ///@arg = file_name
 var _file_name = argument0;
 
+if(!file_exists(_file_name)) {
+	exit;	
+}
+
 global.load = true;
 ini_open(_file_name);
 
@@ -13,6 +17,9 @@ global.player_stamina = ini_read_real("Player", "Stamina", 1);
 global.player_max_stamina = ini_read_real("Player", "Max Stamina", 1);
 
 global.inventory = ini_read_inventory("Player", "Inventory", []);
+global.item = ini_read_inventory("Player", "Active Items", []);
+
+global.destroyed = ini_read_string_array("World", "Destroyed Objects", []);
 
 ini_close();
 
