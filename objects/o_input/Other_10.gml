@@ -13,4 +13,7 @@ down_pressed_ = keyboard_check_pressed(vk_down);
 action_one_pressed_ = keyboard_check_pressed(ord("Z"));
 action_two_pressed_ = keyboard_check_pressed(ord("X"));
 
+action_one_ = keyboard_check(ord("Z"));
+action_two_ = keyboard_check(ord("X"));
+
 paused_pressed_ = keyboard_check_pressed(vk_enter);
