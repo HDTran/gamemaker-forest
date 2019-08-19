@@ -4,14 +4,16 @@ GameMaker Studio 2 Code-Along with course content from https://learn.heartbeast.
 
 The game is a simple zelda-clone where you can roll, drop bombs, shoot a bow and arrow, and find a sword.
 
+> Begin the game by pressing `z`.
+
 > Note that you must equip items at game start to have any actions. This includes rolling and placing bombs.
 
 ## Controls
 
-- `<esc>` to access inventory and `z` and `x` to equip inventory items to actions
-- Arrows to move
 - `z` for primary action
 - `x` for secondary action
+- `<esc>` or `<enter>` to access inventory and `z` and `x` to equip inventory items to actions
+- Arrows to move
 - `i` to save game
 
 ## Key Features
