@@ -18,7 +18,7 @@ if (_input) {
 	} else if (instance_exists(_item) && global.player_stamina >= _item.cost_) {
 		if (_item.show_amount_ && _item.amount_ > 0) {
 			_item.amount_ -= 1;
-		} else {
+		} else if (_item.show_amount_ && _item.amount_ <= 0) {
 			exit;
 		}
 
